@@ -188,4 +188,52 @@ LinkedIn | GitHub
 📝 Licença
 
 MIT
-ENDOFFILE
+
+
+## 🧪 Testes de Integração
+
+O projeto inclui uma suíte de testes de integração que verifica se o portal fake, a API e o scraper estão operacionais.
+
+**Pré-requisitos:** inicie o portal fake e a API em dois terminais separados (veja instruções em "Execução manual").
+
+Depois execute:
+
+```bash
+pip install pytest requests
+pytest test_pipeline.py -v
+
+Os testes validam:
+
+· Portal fake responde (200 OK)
+· API retorna status (/health e /)
+· Endpoint /processos retorna dados
+· Código do scraper é executável
+
+Todos devem passar (4/4).
+
+## 🧪 Testes de Integração
+
+O projeto inclui uma suíte de testes de integração que verifica se o portal fake, a API e o scraper estão operacionais.
+
+**Pré-requisitos:** inicie o portal fake e a API em dois terminais separados (veja instruções em "Execução manual").
+
+Depois execute:
+
+```bash
+pip install pytest requests
+pytest test_pipeline.py -v
+
+Os testes validam:
+
+· Portal fake responde (200 OK)
+· API retorna status (/health e /)
+· Endpoint /processos retorna dados
+· Código do scraper é executável
+
+Todos devem passar (4/4).
+
+## 👨‍💻 Autor
+
+Douglas – Candidato a Backend Júnior na Trimon  
+[LinkedIn](https://www.linkedin.com/in/douglasgoncalvesramosdelima) | [GitHub](https://github.com/dgdesiign)
+
