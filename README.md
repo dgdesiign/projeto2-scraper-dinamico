@@ -234,6 +234,7 @@ Todos devem passar (4/4).
 
 ## 👨‍💻 Autor
 
+## 👨‍💻 Autor
+
 Douglas – Candidato a Backend Júnior na Trimon  
 [LinkedIn](https://www.linkedin.com/in/douglasgoncalvesramosdelima) | [GitHub](https://github.com/dgdesiign)
-
