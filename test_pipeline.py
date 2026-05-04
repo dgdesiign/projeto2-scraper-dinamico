@@ -43,5 +43,8 @@ def test_api_processos_endpoint():
 def test_scraper_executavel():
     """Verifica se o script main.py existe e pode ser executado."""
     import subprocess
-    result = subprocess.run(["python", "-c", "import main; print('OK')"], capture_output=True, text=True)
+    import os
+    # Pega o diretório do arquivo de teste
+    dir_path = os.path.dirname(os.path.abspath(__file__))
+    result = subprocess.run(["python", "-c", "import main; print('OK')"], capture_output=True, text=True, cwd=dir_path)
     assert result.returncode == 0
